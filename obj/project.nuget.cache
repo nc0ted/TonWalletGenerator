@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "i5C+Xy6RWFQ=",
+  "dgSpecHash": "Ub1C3iJUvCA=",
   "success": true,
   "projectFilePath": "/home/nikton/TonWalletGenerator/TonWalletGenerator.csproj",
   "expectedPackageFiles": [
@@ -11,7 +11,8 @@
     "/home/nikton/.nuget/packages/tonsdk.client/0.3.11/tonsdk.client.0.3.11.nupkg.sha512",
     "/home/nikton/.nuget/packages/tonsdk.contracts/0.3.1/tonsdk.contracts.0.3.1.nupkg.sha512",
     "/home/nikton/.nuget/packages/tonsdk.core/0.3.9/tonsdk.core.0.3.9.nupkg.sha512",
-    "/home/nikton/.nuget/packages/tonsdk.defi/0.2.0/tonsdk.defi.0.2.0.nupkg.sha512"
+    "/home/nikton/.nuget/packages/tonsdk.defi/0.2.0/tonsdk.defi.0.2.0.nupkg.sha512",
+    "/home/nikton/.nuget/packages/microsoft.netcore.app.host.win-x64/9.0.0/microsoft.netcore.app.host.win-x64.9.0.0.nupkg.sha512"
   ],
   "logs": []
 }
