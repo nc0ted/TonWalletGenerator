@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TonWalletGenerator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd2fbdff436d8421aaeaa566911d5e858db95436")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dd160ee05227c224ee3448bb1fe881f35bac6b0c")]
 [assembly: System.Reflection.AssemblyProductAttribute("TonWalletGenerator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TonWalletGenerator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

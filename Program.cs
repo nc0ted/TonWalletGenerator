@@ -2,7 +2,7 @@
 using TonSdk.Core;
 using TonSdk.Core.Crypto;
 
-Console.WriteLine("TonWalletGenerator v1.0.0");
+Console.WriteLine("TonWalletGenerator v1.0.1");
 
 Console.WriteLine("Write the word(s) you need to find separated by commas. Example: major, blum, ton. You will find your wallets in documents folder.");
 
@@ -57,14 +57,13 @@ async Task Generate()
         {
             var str = uqAdress.Substring(uqAdress.Length - wordToFind.Length);
             string seedPhrase = string.Join(" ",mnemonic.Words);
-            string[] lines = { $"adress: {uqAdress}", $"seed phrase: {seedPhrase}" };
-            if(str.Contains(wordToFind))
-            {
-                
+            string[] lines = { $"adress: {uqAdress}", $"seed phrase: {seedPhrase}\n" };
+            if(str.ToLower().Contains(wordToFind.ToLower()))
+            {    
                 Console.WriteLine($"FOUND {wordToFind}");
                 File.AppendAllLines(Path.Combine(docPath, "wallets.txt"), lines);
             }   
-            if(uqAdress.Contains(wordToFind))
+            if(uqAdress.ToLower().Contains(wordToFind.ToLower()))
             {
                 Console.WriteLine($"FOUND {wordToFind}");
                 File.AppendAllLines(Path.Combine(docPath, "wallets2.txt"), lines);
